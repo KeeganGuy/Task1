@@ -1,0 +1,85 @@
+<html>
+    <body> 
+        <h1> JavaScript Examples</h1>
+
+        <h2> The Length Property</h2>
+
+    <P> The length of this string is:</P>
+    <P id="Demo"></P>
+
+    <script>
+        let text = "I Like to Eat Kebabs and drink coke"; document.getElementById("demo").innerHTML = text.length;
+    </script>
+
+    <h3> The Slice() Method</h3>
+
+    <p> The sliced part of the string is: </p>
+    <p id="demo"></p>
+
+    <script>
+        let texts = "Dog, Cat, Frog, Fish";
+        let part = text.slice(7, 13); document.getElementById("demo").innerHTML = part; 
+    </script>
+
+    <h4> Number Methods</h4>
+
+    <p id ="demo"></p>
+
+    <script> 
+    let x = 123;
+    document.getElementById("demo").innerHTML = x.toString() + "<br>" + (123).toString() + "<br>" + (100 + 23).toString();
+    </script>
+
+    <P id = "demo"></P>
+
+    <script>
+        let y = 123;
+
+        document.getElementById("demo").innerHTML = x.valueOf() + "<br>" + (123).valueOf + "<br>" + (100 + 23).valueOf();
+    </script>
+
+    <h5> JavaScript Arrays </h5>
+    <p id ="demo"></p>
+    <script> 
+    const fruits = ["Kiwi", "Banana", "Apple", "Mango"];
+    let size = fruits.length;
+    document.getElementById("Demo").innerHTML = size;
+    </script>
+
+    <p id ="demo"></p>
+    <script> 
+    const fruit = ["Kiwi", "Banana", "Apple", "Mango"];
+    document.getElementById("Demo").innerHTML = fruit.toString;
+    </script>
+
+    <h6> JavaScript Dates</h6>
+
+    <p id ="demo"></p>
+
+    <script>
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d;
+    </script>
+
+        <p id ="demo"></p>
+
+    <script>
+    const e = new Date("January 14, 2023 12:30:39");
+    document.getElementById("demo").innerHTML = e;
+    </script>
+
+    <h7>JavaScript Function</h7>
+        <p id ="demo"></p>
+
+    <script>
+        function myFunction(p1, p2)
+        {
+            return p1 * p2;
+        }
+
+        let result = myFunction(4, 3);
+        document.getElementById("demo").innerHTML = result;
+    </script>
+
+    </body>
+</html>
